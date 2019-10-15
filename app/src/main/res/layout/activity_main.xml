@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+   android:weightSum="10">
+
+
+
+
+    <TextView
+        android:id="@+id/tvjson"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello World!"
+        android:background="@drawable/vien"
+        android:layout_weight="4"
+        android:padding="10dp"
+
+
+       />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="23dp"
+        android:text="↓↓↓   Bóc Tách json   ↓↓↓  "
+        android:background="@drawable/vien"
+        android:layout_weight="4.5"/>
+
+    <ScrollView
+        android:id="@+id/scrvjson"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:background="@drawable/vien"
+        android:padding="20dp"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tvjson2"/>
+
+
+    </ScrollView>
+
+</LinearLayout>
